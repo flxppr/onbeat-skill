@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.onbeat_parts/
+/demo/
+tests/*/
+examples/*/beats.json
+examples/*/*.mp4
+examples/*/sheet.png
+examples/*/stills/
+examples/montage/clips/
+tests/*.json
+tests/*.png
+tests/*.wav
