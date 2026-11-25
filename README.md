@@ -109,7 +109,7 @@ To add your own, run `analyze_ref.py` on an edit you like and save the style gui
 - Use music you have the rights to. Platforms may mute copyrighted audio; posting with the platform's own sound is the usual workaround.
 - `python scripts/beats.py --help`, `python scripts/analyze_ref.py --help` and `python scripts/engine.py fonts` all work on their own.
 - Self-tests: `python tests/test_beats.py` (tempo, beat timing, downbeats, drop, kicks, loud clipped masters) and `python tests/test_ref.py` (renders a test edit and checks that the reference analysis reads it back).
-- Built and tested on Windows 11 with Python 3.9 to 3.14. The tests also run on macOS and Linux on every push. Fonts fall back to whatever the system has.
+- Built and tested on Windows 11 with Python 3.9 to 3.14. The tests also run on macOS and Linux on every push. Fonts fall back to whatever the system has: Windows and macOS have good condensed fonts built in. On Linux, install a free condensed display font such as [Anton](https://fonts.google.com/specimen/Anton), [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue) or [Oswald](https://fonts.google.com/specimen/Oswald) for the intended look (otherwise it uses DejaVu Sans Condensed).
 
 ## License
 
